@@ -1,7 +1,7 @@
 /*
- * KAWO Tooltip
+ * Tooltip
  * Author: Alex Duncan
- * Version: 2.0.0
+ * Version: 3.0.0
  *
  * No dependencies and zero config options, super simple declarative tooltip library.
  */
@@ -43,7 +43,7 @@ const tooltip: HTMLElement = d.createElement('div');
 const ts: CSSStyleDeclaration = tooltip.style;
 
 // TOOLTIP BASE STYLES
-tooltip.className = 'kawo-tooltip';
+tooltip.className = 'tt';
 ts.position = 'fixed';
 ts.inset = '0 auto auto 0';
 ts.visibility = 'hidden';
@@ -60,7 +60,7 @@ const arrow: HTMLElement = d.createElement('div');
 const as: CSSStyleDeclaration = arrow.style;
 
 // ARROW BASE STYLES
-arrow.className = 'kawo-tooltip-arrow';
+arrow.className = 'tt-arr';
 as.width = '0';
 as.height = '0';
 as.position = 'absolute';
